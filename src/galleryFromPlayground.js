@@ -51,10 +51,51 @@ function getItems() {
 	]
 }
 
+function getVideoItems() {
+	return [
+		{
+			"id": "86da8f41-d5f1-41cd-8ea9-87b81eed316f",
+			"width": 1920,
+			"height": 1080,
+			"itemId": "86da8f41-d5f1-41cd-8ea9-87b81eed316f",
+			"isSecure": false,
+			"orderIndex": 1624273580.378,
+			"metaData": {
+				"link": {
+					"type": "none",
+					"target": "_blank"
+				},
+				"type": "video",
+				"customPoster": "",
+				"isExternal": true,
+				"height": 1080,
+				"width": 1920,
+				"name": "cvW-est579E",
+				"posters": [
+					{
+						"height": 720,
+						"width": 1280,
+						"url": "497ebd_76c8a25031f9493b8f4ae33e66ed9127~mv2.jpg"
+					}
+				],
+				"qualities": [],
+				"duration": 0,
+				"source": "youtube",
+				"videoUrl": "https://www.youtube.com/watch?v=cvW-est579E",
+				"videoId": "cvW-est579E"
+			},
+			"mediaUrl": "497ebd_76c8a25031f9493b8f4ae33e66ed9127~mv2.jpg",
+			"directLink": {},
+			"directShareLink": "https://nirna3.wixsite.com/strechedgallery?pgid=ko6zmnby-86da8f41-d5f1-41cd-8ea9-87b81eed316f",
+			"isVisitedLoveData": true
+		}
+]
+}
+
 export default function Gallery() {
 
 	// Add your images here...
-	const items = getItems()
+	const items = getVideoItems()
 
 	// The options of the gallery (from the playground current state)
 	const options = {
