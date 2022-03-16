@@ -1,3 +1,4 @@
+import React from 'react'
 import { ProGallery } from 'pro-gallery';
 import 'pro-gallery/dist/statics/main.css';
 

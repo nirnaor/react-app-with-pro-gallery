@@ -1,8 +1,8 @@
 import React from 'react'
 import logo from './logo.svg';
 import './App.css';
-// import Gallery from './gallery'
-import Gallery from './galleryFromPlayground'
+import Gallery from './gallery'
+// import Gallery from './galleryFromPlayground'
 
 function App() {
   return (
